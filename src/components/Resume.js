@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { ArrowRightCircle } from 'react-bootstrap-icons'
 import ResumePDF from '../assets/resume/JasonDongResume0819.pdf'
+import AWS from '../assets/company_pictures/aws.png'
 import Goldman from '../assets/company_pictures/goldman.png'
 import Duke from '../assets/company_pictures/duke.png'
 import AFLCMC from '../assets/company_pictures/aflcmc.png'
@@ -53,9 +54,16 @@ const responsive = {
                     // shouldResetAutoplay={true}
                     >
                         <div className='item'>
+                            <img src={AWS} alt="AWS pic" />
+                            <h5>Amazon Web Services</h5>
+                            <h6>OCT 2022 - PRESENT</h6>
+                            <p>AWS Commerce Platform</p>
+                        </div>
+
+                        <div className='item'>
                             <img src={Goldman} alt="gs pic" />
                             <h5>Goldman Sachs</h5>
-                            <h6>JUL 2022 - Current</h6>
+                            <h6>JUL 2022 - OCT 2022</h6>
                             <p>Full Stack Software Engineer on GS Select Private Banking Team.</p>
                         </div>
 
